@@ -1,11 +1,11 @@
 import React from "react";
 import styles from "./page.module.css";
 import Image from "next/image";
-import technology from "@/public/technology 2.png";
+import techno from "../../../public/technology-2.png";
 import Team from "../components/about/innerTeam";
 import Brand from "../components/common/brand";
-import unplush from "@/public/unsplash.png";
-import filter from "@/public/filtter.png";
+import unplush from "../../../public/unsplash.png";
+import filter from "../../../public/filtter.png";
 
 function About() {
   return (
@@ -15,14 +15,14 @@ function About() {
           <h3>ABOUT COMPANY</h3>
           <h2>ABOUT US</h2>
           <h4>
-            We know how large objects will act, but things on a small scale
+            We know how large objects will act,<br/> but things on a small scale
           </h4>
           <div>
             <h5>Get Quote Now</h5>
           </div>
         </div>
         <div id={styles.image}>
-          <Image src={technology} alt="" width={1200} height={1200} />
+          <Image src={techno} alt="" width={1200} height={1200} />
         </div>
       </div>
 
@@ -31,12 +31,12 @@ function About() {
         <div>
           <h2>Problems trying</h2>
           <h3>
-            Met minim Mollie non desert Alamo est sit cliquey dolor do met sent.
+            Met minim Mollie non desert<br/> Alamo est sit cliquey dolor do<br/> met sent.
           </h3>
         </div>
         <div>
           <h4>
-            Problems trying to resolve the conflict between the two major realms
+            Problems trying to resolve the conflict between<br/> the two major realms
             of Classical physics: Newtonian mechanics{" "}
           </h4>
         </div>
@@ -72,7 +72,7 @@ function About() {
         <div>
           <h2>Meet Our Team</h2>
           <h4>
-            Problems trying to resolve the conflict between the two major realms
+            Problems trying to resolve the conflict between <br/>the two major realms
             of Classical physics: Newtonian mechanics
           </h4>
         </div>
@@ -85,7 +85,7 @@ function About() {
       <div id={styles.compare}>
         <h1>Big Companies Are Here</h1>
         <p>
-          Problems trying to resolve the conflict between the two major realms
+          Problems trying to resolve the conflict between<br/> the two major realms
           of Classical physics: Newtonian mechanics
         </p>
       </div>

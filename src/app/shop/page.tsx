@@ -24,6 +24,7 @@ function Shop() {
           </div>
           <div id={styles.shopHead}>
             <h3>Home</h3>
+            
             <h3>Shop</h3>
           </div>
         </div>

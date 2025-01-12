@@ -1,109 +1,111 @@
-import { StaticImageData } from "next/image";
-import product1 from "../../../../public/product-list/filter.png";
-import product2 from "../../../../public/product-list/filter (1).png";
-import product3 from "../../../../public/product-cover-5 (8).png";
-import product4 from "../../../../public/filter (3).png";
-import product5 from "../../../../public/images/cover.png"
-import product6 from "../../../../public/product-cover-5 (1).png"
-import product7 from "../../../../public/product-cover-5 (2).png";
-import product8 from "../../../../public/product-cover-5 (3).png";
-import product9 from "../../../../public/product-cover-5 (4).png";
-import product10 from "../../../../public/product-cover-5 (5).png";
-import product11 from "../../../../public/product-cover-5 (6).png";
-import product12 from "../../../../public/product-cover-5 (7).png";
 
+
+import { StaticImageData } from "next/image";
+
+import product1 from "../../../../public/filter.png";
+import product2 from "../../../../public/filter-1.png";
+import product3 from "../../../../public/cover3.png";
+import product4 from "../../../../public/filter3.png";
+import product5 from "../../../../public/cover5.png";
+import product6 from "../../../../public/cover6.png";
+import product7 from "../../../../public/cover7.png";
+import product8 from "../../../../public/unsplash.png"; 
+import product9 from "../../../../public/cover8.png";
+import product10 from "../../../../public/cover9.png";
+import product11 from "../../../../public/cover10.png";
+import product12 from "../../../../public/cover11.png";
 
 export type ShopCardData = {
-    image: string | StaticImageData
-    title: string,
-    category: string,
-    prices: string,
-    newPrices:string,
-}
+  image: StaticImageData; // Enforce consistent type
+  title: string;
+  category: string;
+  prices: string;
+  newPrices: string;
+};
 
 export const shopCard: ShopCardData[] = [
   {
-    image: product1 ,
+    image: product1,
     title: "Graphic Design",
     category: "English Department",
-    prices:`$${16.48}`,
-    newPrices:`$${6.48}`,
+    prices: "$16.48",
+    newPrices: "$6.48",
   },
   {
-    image: product2 ,
+    image: product2,
     title: "Graphic Design",
     category: "English Department",
-    prices:`$${16.48}`,
-    newPrices:`$${6.48}`,
+    prices: "$16.48",
+    newPrices: "$6.48",
   },
   {
-    image: product3 ,
+    image: product3,
     title: "Graphic Design",
     category: "English Department",
-    prices:`$${16.48}`,
-    newPrices:`$${6.48}`,
+    prices: "$16.48",
+    newPrices: "$6.48",
   },
   {
-    image: product4 ,
+    image: product4,
     title: "Graphic Design",
     category: "English Department",
-    prices:`$${16.48}`,
-    newPrices:`$${6.48}`,
+    prices: "$16.48",
+    newPrices: "$6.48",
   },
   {
-    image: product5 ,
+    image: product5,
     title: "Graphic Design",
     category: "English Department",
-    prices:`$${16.48}`,
-    newPrices:`$${6.48}`,
+    prices: "$16.48",
+    newPrices: "$6.48",
   },
   {
     image: product6,
     title: "Graphic Design",
     category: "English Department",
-    prices:`$${16.48}`,
-    newPrices:`$${6.48}`,
+    prices: "$16.48",
+    newPrices: "$6.48",
   },
   {
-    image: product7 ,
+    image: product7,
     title: "Graphic Design",
     category: "English Department",
-    prices:`$${16.48}`,
-    newPrices:`$${6.48}`,
+    prices: "$16.48",
+    newPrices: "$6.48",
   },
   {
-    image: product8 ,
+    image: product8, // Fixed typo in import path
     title: "Graphic Design",
     category: "English Department",
-    prices:`$${16.48}`,
-    newPrices:`$${6.48}`,
+    prices: "$16.48",
+    newPrices: "$6.48",
   },
   {
-    image: product9 ,
+    image: product9,
     title: "Graphic Design",
     category: "English Department",
-    prices:`$${16.48}`,
-    newPrices:`$${6.48}`,
+    prices: "$16.48",
+    newPrices: "$6.48",
   },
   {
-    image: product10 ,
+    image: product10,
     title: "Graphic Design",
     category: "English Department",
-    prices:`$${16.48}`,
-    newPrices:`$${6.48}`,
+    prices: "$16.48",
+    newPrices: "$6.48",
   },
   {
-    image: product11 ,
+    image: product11,
     title: "Graphic Design",
     category: "English Department",
-    prices:`$${16.48}`,
-    newPrices:`$${6.48}`,
+    prices: "$16.48",
+    newPrices: "$6.48",
   },
   {
-    image: product12 ,
+    image: product12,
     title: "Graphic Design",
     category: "English Department",
-    prices:`$${16.48}`,
-    newPrices:`$${6.48}`,
+    prices: "$16.48",
+    newPrices: "$6.48",
   },
 ];

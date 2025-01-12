@@ -3,7 +3,7 @@
 import React from 'react'
 import styles from "./header.module.css"
 import Link from 'next/link'
-import vector from "../../../../../public/Vector (6).png"
+import vector from "../../../../../public/Vector-6.png"
 import Image from 'next/image'
 
 function Header2() {

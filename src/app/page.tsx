@@ -5,12 +5,12 @@ import Link from "next/link";
 import Header from "./components/headr/header";
 import ProductCard from "./components/home/productCard";
 import Feature from "./components/home/feature";
-import shopHero from "./../public/shop-hero-1-product-slide-1.jpg"
+import shopHero from "../../public/shop-hero-1-product-slide-1.png"
 import shopHero2 from "../../public/shop-hero-2-png-picture-1.png"
 import filter from "../../public/filter.png"
 import filter2 from "../../public/filter (2).png"
-import filter3 from "../../public/filter (3).png"
-import filter1 from "../../public/filter (1).png"
+import filter3 from "../../public/filter3.png"
+import filter1 from "../../public/filter-1.png"
 import asian from '../../public/asian-woman-man-with-winter-clothes 1.png'
 
 

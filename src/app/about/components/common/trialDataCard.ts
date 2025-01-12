@@ -1,7 +1,7 @@
 import { StaticImageData } from "next/image";
-import twiter from "../../../../../public/twiter.png";
-import facebok from "../../../../../public/facebok.png";
-import intagram from "../../../../../public/intagram.png";
+import twiter from  "../../../../../public/twiter.png"  ;       
+import facebok from "../../../../../public/logo_facebook.png";
+import intagram from "../../../../../public/instagram2.png";
 import linkdin from "../../../../../public/linkedin-icon(1).png";
 
 

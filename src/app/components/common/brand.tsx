@@ -1,9 +1,9 @@
-import brandData from "./brandsData";
+import React from "react";
+import brandData from  "./brandsData" ;         
 import Image from "next/image";
 import styles from "./brand.module.css";
 
 
-import React from 'react'
 
 function Brand() {
   return (

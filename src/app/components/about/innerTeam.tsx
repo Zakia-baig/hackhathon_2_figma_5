@@ -11,6 +11,7 @@ export default function Team() {
         <div id={styles.team} key={index}>
           <Image src={image} alt="" id={styles.img} width={1200} height={1200} />
           <h3>userName</h3>
+          
           <h2>Profession</h2>
 
           <div id={styles.social}>
@@ -23,4 +24,3 @@ export default function Team() {
     </div>
   );
 }
-

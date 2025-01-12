@@ -1,5 +1,5 @@
 import React from 'react'
-import trialData from './trialDataCard';
+import trialData from  "./trialDataCard" ;           
 import Image from 'next/image'; 
 import styles from "./trialData.module.css";
 

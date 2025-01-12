@@ -2,8 +2,8 @@ import React from 'react'
 import styles from "./page.module.css"         
 import Link from 'next/link';
 import Image from 'next/image';
-import vector7 from '../../../../public/Vector (7).png'
-import vector9 from '../../../../public/Vector (91).png'
+import vector7 from '../../../../public/Vector(7).png'
+import vector9 from '../../../../public/Vector(91).png'
 import TrialData from  "../components/common/trialData"                
 import Brand from '@/app/components/common/brand';
 

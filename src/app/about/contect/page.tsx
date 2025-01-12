@@ -1,13 +1,13 @@
 import styles from   "./page.module.css"                    //"/page.module.css";
 import Image from "next/image";
-import twitter from "../../../../public/Vector (111).png";
-import facebook from "../../../../public/logo_facebook.png";
-import instagram from "../../../../public/Vector (13).png";
-import linkdin from "../../../../public/Vector (14).png";
-import technology from "../../../../public/technology 1.png";
-import arow from "../../../../public/Arrow 2.png";
-import phone from "../../../../public/Vector (5).png";
-import location from "../../../../public/Vector (15).png";
+import twitter from "../../../../public/Vector(111).png";
+import facebook from "../../../../public/facebook_logo.png";
+import instagram from "../../../../public/Vector(13).png";
+import linkdin from "../../../../public/linkdin_1.png";
+import technology from "../../../../public/technology1.png";
+import arow from "../../../../public/Arrow2.png";
+import phone from "../../../../public/Vector_5.png";
+import location from "../../../../public/location.png";
 import email from "../../../../public/email1.png";
 
 import React from "react";
@@ -18,9 +18,9 @@ function Contect() {
       <div id={styles.contect}>
         <div id={styles.contectData}>
           <h4>CONTACT US</h4>
-          <h2>Get in touch today!</h2>
+          <h2>Get in touch <br/>today!</h2>
           <h3>
-            We know how large objects will act, but things on a small scale
+            We know how large objects will act,<br/> but things on a small scale
           </h3>
           <h5>Phone ; +451 215 215 </h5>
           <h5>Fax : +451 215 215</h5>
@@ -31,7 +31,7 @@ function Contect() {
             <Image src={linkdin} alt="" />
           </div>
         </div>
-        <div id={styles.image}>
+        <div  id={styles.image}>
           <Image src={technology} alt="" width={1100} height={1100} />
         </div>
       </div>
