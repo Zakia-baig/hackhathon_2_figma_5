@@ -9,7 +9,7 @@
 
 }
 
-#team{
+#teams{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,10 +18,10 @@
     margin-top: 50px;
 }
 
-#team h2{
+#teams h2{
     font-size: 11px;
 }
-#team h3{
+#teams h3{
     font-size: 14px;
 }
 

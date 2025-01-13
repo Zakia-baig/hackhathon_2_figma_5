@@ -1,7 +1,7 @@
 import styles from   "./page.module.css"                    //"/page.module.css";
 import Image from "next/image";
 import twitter from "../../../../public/Vector(111).png";
-import facebook from "../../../../public/facebook_logo.png";
+import facebook from "../../../../public/facebok1.png";
 import instagram from "../../../../public/Vector(13).png";
 import linkdin from "../../../../public/linkdin_1.png";
 import technology from "../../../../public/technology1.png";

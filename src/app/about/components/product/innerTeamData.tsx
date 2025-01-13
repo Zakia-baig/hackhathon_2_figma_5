@@ -1,14 +1,14 @@
 import React from 'react'
 import Image from 'next/image'
-import teamData from './innerTeam';
+import teamsData from './innerTeam';
 import styles from "./innerTeamData.module.css"
 
 
 function InnerTeam() {
   return (
     <div id={styles.teamCard}>
-      {teamData.map(({ image, instagram, facebook, twitter }, index) => (
-        <div id={styles.team} key={index}>
+      {teamsData.map(({ image, instagram, facebook, twitter }, index) => (
+        <div id={styles.teamsData} key={index}>
           <Image src={image} alt="" id={styles.img} width={1200} height={1200} />
           <h3>userName</h3>
           <h2>Profession</h2>

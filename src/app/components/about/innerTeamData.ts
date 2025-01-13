@@ -1,5 +1,5 @@
 import {StaticImageData} from "next/image";
-import team1 from  "../../../../public/team-1-user-1.jpg" ;                                               //"@/public/team-1-user-1.jpg"                   //"/public/team-1-user-1.jpg";
+import team1 from  "../../../../public/team-user-1.jpg" ;                                               //"@/public/team-1-user-1.jpg"                   //"/public/team-1-user-1.jpg";
 import team2 from "../../../../public/team-1-user-2.png"
 import team3 from "../../../../public/team-1-user-3.png"
 import facebook from "../../../../public/facebook(2).png"

@@ -1,16 +1,16 @@
 import { StaticImageData } from "next/image";
-import team1 from "../../../../../public/team-1-user-1.jpg"
-import team3 from "../../../../../public/team-1-user-3.jpg"
-import team4 from "../../../../../public/team-1-user-11.jpg"
-import team5 from "../../../../../public/team-1-user-3.jpg"
-import team6 from "../../../../../public/team-1-user-2.jpg"
-import team7 from "../../../../../public/team-1-user-2.jpg"
-import team8 from "../../../../../public/team-1-user-2(1).jpg"
-import team10 from "../../../../../public/team-1-user-2(2).jpg"
-import team9 from "../../../../../public/team-1-user-3(2).jpg"
-import facebook from "../../../../../public/facebok.png"
-import instagram from "../../../../../public/intagram.png"
-import twitter from "../../../../../public/twiter.png"
+import teams6 from  "../../../../../public/team-user-1.jpg" ;             
+import teams4 from "../../../../../public/team-1-user-3.png";
+import teams1 from "../../../../../public/team-1-user-11.png";
+import teams3 from "../../../../../public/team-1-user-3.jpg";
+import teams2 from "../../../../../public/team-user-4.jpg";
+import teams7 from "../../../../../public/team-1-user-2.png";
+import teams5 from "../../../../../public/team-user-2(1).jpg";
+import teams8 from "../../../../../public/team-user-2(2).jpg";
+import teams9 from "../../../../../public/team-user-3(2).png";
+import facebook from "../../../../../public/facebok.png";
+import instagram from "../../../../../public/intagram.png";
+import twitter from "../../../../../public/twiter.png";
 
 
 
@@ -21,61 +21,61 @@ export type TeamData = {
   twitter: string | StaticImageData;
 };
 
-const teamData: TeamData[] = [
+const teamsData: TeamData[] = [
   {
-    image: team4,
+    image: teams1,
     facebook: facebook,
     instagram: instagram,
     twitter: twitter,
   },
   {
-    image: team6,
+    image: teams2,
     facebook: facebook,
     instagram: instagram,
     twitter: twitter,
   },
   {
-    image: team5,
+    image: teams3,
     facebook: facebook,
     instagram: instagram,
     twitter: twitter,
   },
   {
-    image: team3,
+    image: teams4,
     facebook: facebook,
     instagram: instagram,
     twitter: twitter,
   },
   {
-    image: team8,
+    image: teams5,
     facebook: facebook,
     instagram: instagram,
     twitter: twitter,
   },
   {
-    image: team1,
+    image: teams6,
     facebook: facebook,
     instagram: instagram,
     twitter: twitter,
   },
   {
-    image: team7,
+    image: teams7,
     facebook: facebook,
     instagram: instagram,
     twitter: twitter,
   },
   {
-    image: team10,
+    image: teams8,
     facebook: facebook,
     instagram: instagram,
     twitter: twitter,
   },
   {
-    image: team9,
+    image: teams9,
     facebook: facebook,
     instagram: instagram,
     twitter: twitter,
   },
 ];
 
-export default teamData
+export default teamsData
