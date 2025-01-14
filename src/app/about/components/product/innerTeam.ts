@@ -1,8 +1,8 @@
 import { StaticImageData } from "next/image";
-import teams6 from  "../../../../../public/team-user-1.jpg" ;             
+import teams6 from  "../../../../../public/team-user-1.jpg" ;       
 import teams4 from "../../../../../public/team-1-user-3.png";
 import teams1 from "../../../../../public/team-1-user-11.png";
-import teams3 from "../../../../../public/team-1-user-3.jpg";
+import teams3 from "../../../../../public/team-user-3.jpg";
 import teams2 from "../../../../../public/team-user-4.jpg";
 import teams7 from "../../../../../public/team-1-user-2.png";
 import teams5 from "../../../../../public/team-user-2(1).jpg";

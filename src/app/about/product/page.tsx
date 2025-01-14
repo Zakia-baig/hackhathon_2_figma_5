@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./page.module.css";
 import ProductCard from "../components/product/product";
 import Image from "next/image";
-import unplush2 from "../../../../public/unplush (2).png";
+import unplush2 from "../../../../public/unplush(2).png";
 import InnerTeam from "../components/product/innerTeamData";
 import TrialData from "../components/common/trialData";
 
