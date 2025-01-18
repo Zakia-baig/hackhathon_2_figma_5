@@ -12,7 +12,7 @@ import filter2 from "../../public/filter (2).png"
 import filter3 from "../../public/filter3.png"
 import filter1 from "../../public/filter-1.png"
 import asian from '../../public/asian-woman-man-with-winter-clothes 1.png'
-
+import Footer from "./components/footer/footer"
 
 export default function Home() {
   return (
@@ -31,7 +31,7 @@ export default function Home() {
           <h5>SUMMER 2020</h5>
           <h1>NEW COLLECTION</h1>
           <h4>
-            We know how large objects will act, but things on a small scale.
+            We know how large objects will act,<br/> but things on a small scale.
           </h4>
           <button>
             <Link href={"/shop/product"}>
@@ -44,7 +44,7 @@ export default function Home() {
       {/* shop card section start */}
       <div id={styles.shopCard}>
         <div id={styles.mainContent}>
-          <h2>EDITOR’S PICK</h2>
+          <h2 className="font-bold">EDITOR’S PICK</h2>
           <p>Problems trying to resolve the conflict between </p>
         </div>
         <div id={styles.cards}>
@@ -84,9 +84,9 @@ export default function Home() {
       <div id={styles.banner}>
         <div id={styles.bannerHeadings}>
           <h5>SUMMER 2020</h5>
-          <h1>Vita Classic Product</h1>
+          <h1 className="font-bold text-5xl">Vita Classic<br/> Product</h1>
           <h4>
-            We know how large objects will act, We know how are objects will
+            We know how large objects will act, We know <br/> how are objects will
             act, We know
           </h4>
           <div id={styles.bannerbtn}>
@@ -125,15 +125,17 @@ export default function Home() {
       <div id={styles.feature}>
         <div id={styles.featureHeading}>
           <h2>Practice Advice</h2>
-          <h3>Featured Posts</h3>
+          <h3 className="font-bold">Featured Posts</h3>
           <p>
-            Problems trying to resolve the conflict between the two major realms
+            Problems trying to resolve the conflict between <br/>
+            the two major realms
             of Classical physics: Newtonian mechanics
           </p>
         </div>
       </div>
 
       <Feature/>
+      <Footer/>
     </div>
   );
 }

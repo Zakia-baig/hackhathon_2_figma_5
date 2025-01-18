@@ -10,7 +10,7 @@ function Footer() {
     <div>
       <div id={styles.footer}>
         <div id={styles.bandage}>
-          <h2>Bandage</h2>
+          <h2 className='font-bold'>Bandage</h2>
           <div id={styles.links}>
             <Image src={facebook} alt="" />
             <Image src={instagram} alt="" />

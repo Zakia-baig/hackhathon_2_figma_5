@@ -4,6 +4,7 @@ import Cloths from '../components/shop/cloths'
 import Brand from '../components/common/brand';
 import Link from 'next/link';
 import Header from '../components/headr/header';
+import Footer from "@/app/components/footer/footer"
 
 
 function Shop() {
@@ -70,7 +71,9 @@ function Shop() {
       {/* brands section */}
       <div id={styles.brands}>
         <Brand />
+    
       </div>
+      <Footer/>
 
       {/* products section */}
       <div>
