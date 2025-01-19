@@ -10,9 +10,9 @@ export default function Team() {
       {teamData.map(({ image, instagram, facebook, twitter }, index) => (
         <div id={styles.team} key={index}>
           <Image src={image} alt="" id={styles.img} width={1200} height={1200} />
-          <h3>userName</h3>
+          <h3 className='font-bold'>Username</h3>
           
-          <h2>Profession</h2>
+          <h2 className='font-bold text-slate-600'>Profession</h2>
 
           <div id={styles.social}>
             <Image src={facebook} alt="" width={20} height={20} />

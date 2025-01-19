@@ -7,8 +7,8 @@ function TrialData() {
   return (
     <div>
       <div id={styles.trial}>
-        <h2>Start your 14 days free trial</h2>
-        <h5>
+        <h2 className='font-extrabold'>Start your 14 days free trial</h2>
+        <h5 className='text-lg'>
           Met minim Mollie non desert Alamo est sit cliquey dolor <br /> do met
           sent. RELIT official consequent.
         </h5>

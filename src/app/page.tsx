@@ -106,8 +106,8 @@ export default function Home() {
           <Image src={asian} alt="woman" width={1200} height={1200} />
         </div>
         <div id={styles.universContent}>
-          <h2>SUMMER 2020</h2>
-          <h3>
+          <h2 className="font-bold">SUMMER 2020</h2>
+          <h3 className="font-bold">
             Part of the Neural <br /> Universe
           </h3>
           <h4>
@@ -115,8 +115,8 @@ export default function Home() {
             <br /> but things on a small scale.
           </h4>
           <div id={styles.universBtn}>
-            <button>BUY NOW</button>
-            <button>READ MORE</button>
+            <button className="font-bold">BUY NOW</button>
+            <button className="font-bold">READ MORE</button>
           </div>
         </div>
       </div>
@@ -124,7 +124,7 @@ export default function Home() {
       {/* Featured Posts section */}
       <div id={styles.feature}>
         <div id={styles.featureHeading}>
-          <h2>Practice Advice</h2>
+          <h2 className="font-bold">Practice Advice</h2>
           <h3 className="font-bold">Featured Posts</h3>
           <p>
             Problems trying to resolve the conflict between <br/>
@@ -132,10 +132,12 @@ export default function Home() {
             of Classical physics: Newtonian mechanics
           </p>
         </div>
+        <Feature/>
       </div>
 
-      <Feature/>
+      
       <Footer/>
     </div>
   );
 }
+

@@ -19,7 +19,7 @@ function Header2() {
       <div id={styles.header}>
         <div>
           {" "}
-          <h3>Bandage</h3>
+          <h3 className='font-bold'>Bandage</h3>
         </div>
         <div id={styles.pages}>
           <ol>

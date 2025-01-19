@@ -42,3 +42,14 @@
 #teamMeet h2{
     font-size: 35px;
 }
+#vector{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap:20px
+}
+
+#vector a:hover{
+    color: red;
+}

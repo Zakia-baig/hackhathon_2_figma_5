@@ -338,3 +338,184 @@ text-align: center;
 
 
 /* media quirease */
+/* Large screens (1440px and above) */
+@media (min-width: 1440px) {
+    #hero img {
+      width: 1440px;
+      height: 852px;
+    }
+  
+    #filter img,
+    #filter1 img,
+    #filter2 img {
+      width: 510px;
+      height: auto;
+    }
+  }
+  
+  /* Tablets (768px to 1024px) */
+  @media (max-width: 1024px) {
+    #hero {
+      grid-template-rows: auto;
+    }
+  
+    #hero img {
+      width: 100%;
+      height: auto;
+    }
+  
+    #textOverLay {
+      top: 50px;
+      left: 50%;
+      transform: translateX(-50%);
+      gap: 20px;
+    }
+  
+    #textOverLay h1 {
+      font-size: 48px;
+      line-height: 60px;
+    }
+  
+    #shopCard {
+      padding: 0px 50px;
+    }
+  
+    #cards {
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+    }
+  
+    #banner {
+      grid-template-columns: 1fr;
+      padding: 50px;
+      gap: 30px;
+    }
+  
+    #asian img {
+      width: 400px;
+      height: auto;
+      margin-left: 0;
+    }
+  
+    #univers {
+      grid-template-columns: 1fr;
+      gap: 30px;
+    }
+  }
+  
+  /* Mobile devices (max-width: 768px) */
+  @media (max-width: 768px) {
+    #homePage {
+      padding: 10px;
+    }
+  
+    #hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    #hero img {
+      width: 100%;
+      height: auto;
+    }
+  
+    #textOverLay {
+      position: static;
+      transform: none;
+      width: auto;
+      gap: 10px;
+      text-align: center;
+      align-items: center;
+    }
+  
+    #textOverLay h1 {
+      font-size: 32px;
+      line-height: 40px;
+    }
+  
+    #shopCard {
+      padding: 0px 20px;
+    }
+  
+    #cards {
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+  
+    #filter img,
+    #filter1 img,
+    #filter2 img {
+      width: 100%;
+      height: auto;
+    }
+  
+    #banner {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+  
+    #banner img {
+      width: 100%;
+      height: auto;
+    }
+  
+    #asian img {
+      width: 100%;
+      height: auto;
+      margin-left: 0;
+    }
+  
+    #univers {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+  
+    #universContent h3 {
+      font-size: 30px;
+    }
+  
+    #universContent h4 {
+      font-size: 16px;
+    }
+  
+    #featureHeading h3 {
+      font-size: 28px;
+    }
+  
+    #featureHeading h2 {
+      font-size: 16px;
+    }
+  }
+  
+  /* Extra small devices (max-width: 480px) */
+  @media (max-width: 480px) {
+    #textOverLay h1 {
+      font-size: 24px;
+      line-height: 32px;
+    }
+  
+    #textOverLay h5,
+    #textOverLay h4 {
+      font-size: 14px;
+    }
+  
+    #banner {
+      padding: 20px;
+    }
+  
+    #universContent h3 {
+      font-size: 24px;
+    }
+  
+    #universBtn button {
+      width: 100px;
+      height: 40px;
+    }
+  
+    #featureHeading h3 {
+      font-size: 24px;
+    }
+  }
+  
