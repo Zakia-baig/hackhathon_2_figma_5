@@ -13,6 +13,7 @@ import filter3 from "../../public/filter3.png"
 import filter1 from "../../public/filter-1.png"
 import asian from '../../public/asian-woman-man-with-winter-clothes 1.png'
 import Footer from "./components/footer/footer"
+import ProductCards from "./Products/page";
 
 export default function Home() {
   return (
@@ -133,6 +134,7 @@ export default function Home() {
           </p>
         </div>
         <Feature/>
+        <ProductCards/>
       </div>
 
       
